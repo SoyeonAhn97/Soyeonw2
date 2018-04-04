@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>START BOOTSTRAP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">자기소개</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/19149047_1313022228819534_7599311280167843443_n.jpg?oh=7a05e109eceb6cd4fb6ae3d0cc2a8f94&oe=5B3D7BB6" alt="">
+        <h1 class="text-uppercase mb-0">안소연</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">미래의 개발자</h2>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="http://jasoseol.image.s3-ap-northeast-1.amazonaws.com/employment_companies/images/000/015/259/original/basiclogo_K_V.png?1487878526" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://admission.kangnam.ac.kr/img/common/h1_logoM.png">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="http://pds.joins.com/jmnet/koreajoongangdaily/_data/photo/2017/09/24220100.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="http://img.etoday.co.kr/pto_db/2017/06/20170630055356_1088133_710_340.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="http://skinnovation-if.com/wp-content/uploads/2017/02/%EC%9A%9C%EB%A1%9C%EB%9D%BC%EC%9D%B4%ED%94%84_%EB%B3%B8%EB%AC%B801.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">현재 웹 개발을 배우는 과정에 있으며 C, Java등의 언어도 함께 공부 중인 미래의 유망한 개발자입니다.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">아직 한참 부족하지만 매우 노력중이며 점점 실력을 키워나갈 전망이다. 이 글을 보시는 모든 분들에게 웹 개발이 도전 해볼만한 가치가 충분하며 어려움을 갖지 말고 도전해봤으면 좋겠다는 말을 전하고 싶다.</p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="#">
+            <i class="fa fa-download mr-2"></i>
+            화이팅!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Name</label>
+                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Email Address</label>
+                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Phone Number</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">보내기</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">주소</h4>
+            <p class="lead mb-0">서울시 송파구 문정2동
+              <br>올림픽훼미리APT</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">SNS</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.google.com">
+                  <i class="fa fa-fw fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.instagram.com/?hl=ko">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://likelion.net">
+                  <i class="fa fa-fw fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4">자기소개 페이지에 대해</h4>
+            <p class="lead mb-0">이 웹페이지는 2차가공이 무료이며, 마음껏 활용하셔도 좋습니다!
+              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; Your Website 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+  </body>
+
+</html>
